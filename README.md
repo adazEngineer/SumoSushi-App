@@ -1,2 +1,0 @@
-# SumoSushi-App
-
