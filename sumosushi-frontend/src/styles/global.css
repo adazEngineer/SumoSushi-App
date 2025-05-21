@@ -1,0 +1,104 @@
+/*=============================*/
+/* Contenedores */
+/*=============================*/
+
+.cont-main {
+    margin-top: 85px;
+    margin-bottom: 85px;
+    width: 100%;
+    max-width: 900px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont-main-categorias {
+    margin-top: 140px;
+}
+
+.cont{
+    width: 95%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--color-fondo-secundario);
+    border-radius: var(--border-radius);
+}
+
+/*=============================*/
+/* Texto */
+/*=============================*/
+.txt-titulo {
+    font-size: var(--tamanio-titulos);
+    line-height: var(--altura-linea-primaria);
+    font-family: var(--fuente-primaria);
+    font-weight: bold;
+    color: var(--color-texto-principal);
+}
+
+.txt-subtitulo {
+    font-size: var(--tamanio-subtitulos);
+    line-height: var(--altura-linea-secundaria);
+    font-family: var(--fuente-secundaria);
+    font-weight: bold;
+    color: var(--color-texto-principal);
+}
+
+.txt-texto {
+    font-size: var(--tamanio-texto);
+    line-height: var(--altura-linea-terciaria);
+    font-family: var(--fuente-terciaria);
+    font-weight: normal;
+    color: var(--color-texto-secundario);
+}
+
+/*=============================*/
+/* Botones */
+/*=============================*/
+
+.btn {
+    width:95%;
+    padding: 15px;
+    background-color: var(--color-principal);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    color: var(--color-texto-principal);
+    font-size: var(--tamanio-subtitulos);
+}
+
+.btn-cancelar {
+    background-color: var(--color-fondo-secundario);
+}
+
+.btn-oscuro {
+    background-color: var(--color-texto-principal);
+}
+
+/*=============================*/
+/* Formularios */
+/*=============================*/
+
+.input-txt{
+    width: 95%;
+    padding: 12px 15px;
+    background-color: var(--color-fondo-secundario);
+    border: 1px solid var(--color-texto-principal);
+    border-radius: var(--border-radius);
+    color: var(--color-texto-principal);
+    font-size: var(--tamanio-texto);
+    outline: none;
+    transition: border 0.3s;
+}
+
+.input-txt:focus{
+    border: 1px solid var(--color-secundario);
+}
+

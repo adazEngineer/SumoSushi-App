@@ -1,0 +1,56 @@
+/*=============================*/
+/* COLORES */
+/*=============================*/
+:root {
+    --color-principal: #8B0201;
+    --color-secundario: #D80123;
+  
+    --color-fondo-principal: #241E20;
+    --color-fondo-secundario: #2d2d2d;
+  
+    --color-texto-principal: #E0E0E0;
+    --color-texto-secundario: #AAAAAA;
+  }
+  
+  /*=============================*/
+  /* TIPOGRAFÍA Y TEXTO */
+  /*=============================*/
+  :root {
+    --fuente-primaria: sans-serif;
+    --fuente-secundaria: sans-serif;
+    --fuente-terciaria: monospace;
+  
+    --tamanio-titulos: 2.2rem;
+    --tamanio-subtitulos: 1.8rem;
+    --tamanio-texto: 1.6rem;
+  
+    --altura-linea-primaria: 1.5;
+    --altura-linea-secundaria: 1.4;
+    --altura-linea-terciaria: 1.2;
+  }
+  
+  /*=============================*/
+  /* OTROS ELEMENTOS */
+  /*=============================*/
+  :root {
+    --border-radius: 10px;
+  }
+  
+  /*=============================*/
+  /* MEDIA QUERIES */
+  /*=============================*/
+  @media (min-width: 768px) {
+    :root {
+      --tamanio-titulos: 2.6rem;
+      --tamanio-subtitulos: 2.2rem;
+      --tamanio-texto: 1.8rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    :root {
+      --tamanio-titulos: 3rem;
+      --tamanio-subtitulos: 2.4rem;
+      --tamanio-texto: 2rem;
+    }
+  }
