@@ -1,0 +1,110 @@
+:root{
+    /*Colores*/
+    --color-principal: #8B0201;
+    --color-secundario: #D80123 ;
+
+    --color-fondo-principal: #241E20;
+    --color-fondo-secundario: #2d2d2d;
+
+    --color-texto-principal: #ffffff;
+    /* --color-texto-secundario: #666; */
+
+    /*Texto*/
+    --fuente-primaria:  sans-serif;
+    --fuente-secundaria: sans-serif;
+    --fuente-terciaria: monospace;
+
+    /* --tamanio-titulos: 3vw; */
+    --tamanio-titulos: clamp(1.5rem, 3.5vw + 1rem, 2.5rem);
+    --tamanio-subtitulos: clamp(1.3rem, 2.5vw + 1rem, 2.2rem); 
+    --tamanio-texto: clamp(1.1rem, 1.8vw + 1rem, 1.8rem);
+
+
+    --altura-linea-primaria: 1.5;
+    --altura-linea-secundaria: 1.4;
+    --altura-linea-terciaria: 1.2;
+
+    /*Otros*/
+    --border-radius: 10px;
+
+}
+
+/*Reset global de márgenes y padding*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+html{
+    font-size: 67.4%;
+    background-color: var(--color-fondo-principal);
+    scroll-behavior: smooth
+} 
+
+h1,h2{
+    font-family: var(--fuente-primaria);
+    font-size: var(--tamanio-titulos);
+    font-weight: 900;
+    line-height: var(--altura-linea-primaria);
+    color: var(--color-texto-principal);
+}
+
+h3{
+    font-family: var(--fuente-secundaria);
+    font-size: var(--tamanio-subtitulos);
+    font-weight: 600;
+    line-height: var(--altura-linea-secundaria);
+    color: var(--color-texto-principal);
+}
+
+p, a, label{
+    font-size: var(--tamanio-texto);
+    /* font-family: var(--fuente-terciaria); */
+    text-decoration: none;
+    font-weight: normal;
+    line-height: var(--altura-linea-terciaria);
+    color: var(--color-texto-principal);
+    
+}
+
+
+
+i{
+  font-size: var(--tamanio-subtitulos);
+  color: var(--color-texto-principal);
+}
+
+button{
+    background-color: transparent;
+    border: none;                 
+    padding: 0;
+    color: var(--color-texto-principal);
+    font-size: var(--tamanio-texto); 
+}
+
+.contenedor-principal{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    width: 100%;
+    max-width: 900px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: center; */    
+}
+
+.contenedor-principal--categorias{
+    margin-top: 140px;
+}
